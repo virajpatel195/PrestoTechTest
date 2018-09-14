@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.patel.viraj.prestotechtest.PrestoTechScreenActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtTextInput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="1/blue/right,2/blue/right,3/red/right,4/blue/left,5/purple/left,6/red/left,7/green/left,8/red/left,9/blue/left"
+                android:textSize="@dimen/bodyText"
+                android:padding="@dimen/bodyTextPadding"/>
+
+            <Button
+                android:id="@+id/btnRun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/buttonMargin"
+                android:text="Run"
+                android:layout_gravity="center"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:background="@color/colorAccent"
+                android:textColor="@color/White"
+                android:padding="@dimen/buttonPadding" />
+            <TextView
+                android:id="@+id/textOutput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/bodyText"
+                android:padding="@dimen/bodyTextPadding"/>
+            <TextView
+                android:id="@+id/textBonusOutput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/bodyText"
+                android:padding="@dimen/bodyTextPadding"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

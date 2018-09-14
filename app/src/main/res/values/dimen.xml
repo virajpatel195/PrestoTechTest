@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--BUTTON-->
+    <dimen name="buttonMargin" >10dp</dimen>
+    <dimen name="buttonPadding" >10dp</dimen>
+
+
+
+
+    <!--BODY TEXTVIEW-->
+    <dimen name="bodyText" >20dp</dimen>
+    <dimen name="bodyTextPadding" >10dp</dimen>
+</resources>
